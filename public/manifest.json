@@ -1,0 +1,20 @@
+{
+  "short_name": "MyDearestJulia",
+  "name": "MyDearestJulia HomePage",
+  "icons": [
+    {
+      "src": "profilepic.jpg",
+      "type": "image/jpg",
+      "sizes": "176x176"
+    },
+    {
+      "src": "julia-banner.jpg",
+      "type": "image/jpg",
+      "sizes": "1240x739"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#532F8C"
+}
