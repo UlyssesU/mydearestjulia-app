@@ -51,6 +51,29 @@
     max-width: 100%;
 }
 
+.App-header #href-link {
+    color:rgba(244, 133, 250, 0.5);
+}
+
+.App-header #contact-links {
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.App-header #contact-links a {
+    font-size: 1.8rem;
+    color: #b86f37;
+    padding: 1.2rem;
+    text-decoration: none;
+}
+
+.App-header #contact-links a:hover {
+    background-color: #edcae7;
+    border-radius: 1rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem rgba(55, 37, 56, 0.5);
+}
+
 /* .App-link {
   color: #61dafb;
 } */

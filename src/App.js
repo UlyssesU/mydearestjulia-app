@@ -2,6 +2,7 @@
 import banner from './julia-banner.jpg';
 // import banner from './julia-banner.jpg';
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
 
             <div class="container">
                 <div class="alert alert-info text-center" role="alert">
-                    Thank you for visiting my webpage, it is currently under construction but I hope to have it up to date soon! in the meantime, please feel free to visit my youtube channel at <a href="https://www.youtube.com/channel/UC30zl6laoBlAyBnYHMN7NNg" class="alert-link">Mydearestjulia on youtube.</a>
+                    Thank you for visiting my webpage, it is currently under construction but I hope to have it up to date soon! in the meantime, please feel free to visit my youtube channel at <a id='href-link' href="https://www.youtube.com/channel/UC30zl6laoBlAyBnYHMN7NNg" class="alert-link">Mydearestjulia on youtube.</a>
                 </div>
                 <hr />
 
@@ -38,9 +39,9 @@ function App() {
                     <div class="col-md-6">
                         <h3><span class="glyphicon glyphicon-info-sign"></span> Gift guides for him</h3>
                         <ul>
-                            <li>Men's gift guide *Month-Aversary*, Easy DIY ideas <a href="https://www.youtube.com/watch?v=W_VwAwL4zQw&list=PL-vVndkbFM2RMzGuZIZAYJmVNiAMNqpz0&index=1">Month-Aversary youtube video</a></li>
+                            <li>Men's gift guide *Month-Aversary*, Easy DIY ideas <a id='href-link' href="https://www.youtube.com/watch?v=W_VwAwL4zQw&list=PL-vVndkbFM2RMzGuZIZAYJmVNiAMNqpz0&index=1">Month-Aversary youtube video</a></li>
 
-                            <li>Valentine's Day gift ideas for him, 2021 <a href="https://www.youtube.com/watch?v=XI4eiNI6aM0&list=PL-vVndkbFM2RMzGuZIZAYJmVNiAMNqpz0&index=2&t=9s">Valentine's Day youtube video</a></li>
+                            <li>Valentine's Day gift ideas for him, 2021 <a id='href-link' href="https://www.youtube.com/watch?v=XI4eiNI6aM0&list=PL-vVndkbFM2RMzGuZIZAYJmVNiAMNqpz0&index=2&t=9s">Valentine's Day youtube video</a></li>
                         </ul>
                     </div>
                     
@@ -48,12 +49,25 @@ function App() {
                         <h3><span class="glyphicon glyphicon-info-sign"></span> Next Steps</h3>
                         <ul>
                             <li>While my page is still under construction I am still looking to bring content to both my website and channel that I think everyone will enjoy.</li>
-                            <li>In the meantime please feel free to leave messages on my videos to let me know what you think and what you would like to see in the future as I am always looking for feedback so that I can deliver a a wonderful and helpful experience to you all.</li>
+                            <li>In the meantime please feel free to leave messages on my videos to let me know what you think and what you would like to see in the future as I am always looking for feedback so that I can deliver a wonderful and helpful experience to you all.</li>
                         </ul>
-                        <h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>
-                        <ul>
+                        
+                        <h3><span class="glyphicon glyphicon-link"></span> Don't forget to stay in touch!</h3>
+                        <hr />
+
+                        <div id="contact-links">
+                            <a id="profile-link" href="https://www.youtube.com/@MyDearestJulia" >Youtube</a>
+
+                            <a class="contact-link" href="https://www.instagram.com/mydearestjulia/?hl=en" >Instagram</a>
+                            
+                            <a class="contact-link" href="https://twitter.com/MyDearestJulia" >Twitter</a>
+
+                            <a class="contact-link" href="mailto:mydearestjulia@outlook.com" >Send an email</a>
+                        </div>
+
+                        {/* <ul>
                             <li>Will work to add links with content and info everyone might like.</li>
-                        </ul>
+                        </ul> */}
                     </div>
                 </div>
             </div>
