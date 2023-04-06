@@ -1,88 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--color-bg-main);
+}
+
 .App {
-  text-align: center;
-}
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 50vw 25vh, var(--color-bg-circle) 0%, var(--color-bg-main) 30%);
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 50vw 25vh, var(--color-bg-circle) 0%, var(--color-bg-main) 30%);
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 50vw 25vh, var(--color-bg-circle) 0%, var(--color-bg-main) 30%);
 
-.App-header {
-    background-color: #532F8C;
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 50vw 25vh, var(--color-bg-circle) 0%, var(--color-bg-main) 30%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 50vw 25vh, var(--color-bg-circle) 0%, var(--color-bg-main) 30%);
+
+    /* height: 100vh; */
+    /* height: 100%; */
+    /* width: 100vh; */
+    /* display: flex; */
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    padding-bottom: 80px;
 }
 
-.App-header p {
-    color: #d9ccee;
-    max-width: 75%;
-    margin: 1em auto 2em;
+.section__padding {
+    padding: 4rem 6rem;
+}
+  
+.section__margin {
+    margin: 4rem 6rem;
 }
 
-.App-header .profile-banner {
-    max-width: 100%;
-    padding-bottom: 60px;
+@media screen and (max-width: 700px) {
+    .section__padding {
+        padding: 4rem;
+    }
+    .section__margin {
+        margin: 4rem;
+    }
 }
 
-.App-header .profilepic {
-    display: block;
-    background: #532F8C;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 21vmin;
-    height: 21vmin;
-    margin: auto;
-    border: 2px solid white;
-}
-
-.App-header .profilepic img {
-    max-width: 100%;
-}
-
-.App-header #href-link {
-    color:rgba(244, 133, 250, 0.5);
-}
-
-.App-header #contact-links {
-    display: flex;
-    justify-content: center;
-    font-family: "Poppins", sans-serif;
-}
-
-.App-header #contact-links a {
-    font-size: 1.8rem;
-    color: #b86f37;
-    padding: 1.2rem;
-    text-decoration: none;
-}
-
-.App-header #contact-links a:hover {
-    background-color: #edcae7;
-    border-radius: 1rem;
-    box-shadow: 0.3rem 0.3rem 0.5rem rgba(55, 37, 56, 0.5);
-}
-
-/* .App-link {
-  color: #61dafb;
-} */
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 550px) {
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+  
+    .section__margin {
+        margin: 4rem 2rem;
+    }  
   }
-  to {
-    transform: rotate(360deg);
-  }
-} */

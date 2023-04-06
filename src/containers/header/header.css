@@ -1,0 +1,12 @@
+.mydearest__header {
+    margin-top: 5.5rem;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.mydearest__header-banner p {
+    color: var(--color-text-main);
+}

@@ -1,0 +1,13 @@
+.mydearest__appbar-logo {
+    font-size: 2rem;
+    /* font-family: Brush Script MT; */
+    color: var(--color-text-main);
+}
+.Typography {
+    font-family: Brush Script MT;
+}
+
+.mydearest__drawer img {
+    width: 1rem;
+    height: 1rem;
+}

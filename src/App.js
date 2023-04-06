@@ -1,78 +1,27 @@
-// import logo from './logo.svg';
-import banner from './julia-banner.jpg';
-// import banner from './julia-banner.jpg';
+import React from 'react';
 import './App.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import GiftGuides from './pages/GiftGuides';
+import Recipes from './pages/Recipes';
+import Reviews from './pages/Reviews';
+import StoreFront from './pages/StoreFront';
+import AboutMe from './pages/AboutMe';
+
 
 function App() {
   return (
     <div className="App">
-        <header className="App-header">
-            {/* <img src={logo} className="App-logo" alt="logo" /> */}
-            <img src={banner} className="profile-banner" alt="banner" />
-            {/* <p>
-            Edit <code>src/App.js</code> and save to reload.
-            </p>
-            <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-            Learn React
-            </a> */}
-            <div className="container">
-                <a href="/" class="profilepic">
-                    <img src="/profilepic.jpg" alt="profilepic" />
-                </a>
-                <h1>Welcome to MyDearestJulia.com!</h1>
-                <p>Welcome all to my home page where I include information that I talk about in my youtube channel and more.</p>
-            </div>
-
-            <div class="container">
-                <div class="alert alert-info text-center" role="alert">
-                    Thank you for visiting my webpage, it is currently under construction but I hope to have it up to date soon! in the meantime, please feel free to visit my youtube channel at <a id='href-link' href="https://www.youtube.com/channel/UC30zl6laoBlAyBnYHMN7NNg" class="alert-link">Mydearestjulia on youtube.</a>
-                </div>
-                <hr />
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3><span class="glyphicon glyphicon-info-sign"></span> Gift guides for him</h3>
-                        <ul>
-                            <li>Men's gift guide *Month-Aversary*, Easy DIY ideas <a id='href-link' href="https://www.youtube.com/watch?v=W_VwAwL4zQw&list=PL-vVndkbFM2RMzGuZIZAYJmVNiAMNqpz0&index=1">Month-Aversary youtube video</a></li>
-
-                            <li>Valentine's Day gift ideas for him, 2021 <a id='href-link' href="https://www.youtube.com/watch?v=XI4eiNI6aM0&list=PL-vVndkbFM2RMzGuZIZAYJmVNiAMNqpz0&index=2&t=9s">Valentine's Day youtube video</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <h3><span class="glyphicon glyphicon-info-sign"></span> Next Steps</h3>
-                        <ul>
-                            <li>While my page is still under construction I am still looking to bring content to both my website and channel that I think everyone will enjoy.</li>
-                            <li>In the meantime please feel free to leave messages on my videos to let me know what you think and what you would like to see in the future as I am always looking for feedback so that I can deliver a wonderful and helpful experience to you all.</li>
-                        </ul>
-                        
-                        <h3><span class="glyphicon glyphicon-link"></span> Don't forget to stay in touch!</h3>
-                        <hr />
-
-                        <div id="contact-links">
-                            <a id="profile-link" href="https://www.youtube.com/@MyDearestJulia" >Youtube</a>
-
-                            <a class="contact-link" href="https://www.instagram.com/mydearestjulia/?hl=en" >Instagram</a>
-                            
-                            <a class="contact-link" href="https://twitter.com/MyDearestJulia" >Twitter</a>
-
-                            <a class="contact-link" href="mailto:mydearestjulia@outlook.com" >Send an email</a>
-                        </div>
-
-                        {/* <ul>
-                            <li>Will work to add links with content and info everyone might like.</li>
-                        </ul> */}
-                    </div>
-                </div>
-            </div>
-        </header>
-
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' exact element={<Home />} />
+          <Route path='/giftguides' element={<GiftGuides />} />
+          <Route path='/recipes' element={<Recipes />} />
+          <Route path='/reviews' element={<Reviews />} />
+          <Route path='/storefront' element={<StoreFront />} />
+          <Route path='/aboutme' element={<AboutMe />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

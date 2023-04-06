@@ -1,0 +1,19 @@
+.mdjStoreFrontLinks {
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.mdjStoreFrontLinks-container {
+    /* background-color: darksalmon; */
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* .mdjStoreFrontLinks-container-title { */
+    /* font-size: 2rem; */
+/* } */

@@ -1,0 +1,59 @@
+.mydearest__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+
+.mydearest__navbar-logo {
+    margin: 0rem 1rem;
+    font-size: 2rem;
+    font-family: Brush Script MT;
+}
+
+.mydearest__navbar-logo a {
+    display: flex;
+    color: var(--color-text-main);
+    text-decoration: none;
+}
+.mydearest__navbar-logo img {
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 10%;
+    margin: auto .5rem auto 0rem;
+}
+
+.mydearest__navbar-searchbar {
+    margin: 0rem 1rem;
+}
+
+.mydearest__navbar-menu {
+    margin: 0rem 1rem;
+}
+
+.mydearest__navbar-searchbar button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.mydearest__navbar-menu button {
+    padding: 0.5rem 1rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: .5rem;
+}

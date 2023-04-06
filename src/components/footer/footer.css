@@ -1,0 +1,41 @@
+.mydearest__footer {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* background: rgba(43, 35, 57, 0.8); */
+    margin-top: 7rem;
+}
+
+.mydearest__footer-top h2 {
+    color: var(--color-text-main);
+    text-align: center;
+
+}
+
+.mydearest__footer-top-links {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins", sans-serif;
+}
+
+.mydearest__footer-top-links a {
+    display: flex;
+    font-size: 1.5rem;
+    /* color: #b86f37; */
+    padding: 0.5rem 1rem;
+    /* text-decoration: none; */
+    margin-bottom: 0.25rem;
+}
+
+.mydearest__footer-top-links a:hover {
+    background-color: rgba(124, 100, 163, 0.5);
+    border-radius: 1rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem rgba(124, 100, 163, 0.25);
+}
+
+.mydearest__footer-below {
+    color: var(--color-text-main);
+    margin-top: 0.5rem;
+    white-space: pre-wrap;
+}

@@ -1,0 +1,10 @@
+import React from 'react'
+import './recipesBody.css';
+
+const RecipesBody = () => {
+  return (
+    <div className='mydearest__recipesbody'>RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody RecipesBody</div>
+  )
+}
+
+export default RecipesBody

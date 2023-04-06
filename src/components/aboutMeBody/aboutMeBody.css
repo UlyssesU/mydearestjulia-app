@@ -1,0 +1,25 @@
+.mydearest__aboutMeBody {
+    margin-top: 3rem;
+    color: var(--color-text-main);
+}
+
+.mydearest__aboutMeBody h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+.mydearest__aboutMeBody h2 {
+    display: flex;
+    justify-content: center;
+}
+.mydearest__aboutMeBody h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.mydearest__aboutMeBody p {
+    text-indent: 50px;
+    margin: 1.5rem;
+    font-size: 1.25rem;
+}
