@@ -37,6 +37,7 @@ const StoreFrontBody = () => {
         <div className='mydearest__storefrontbody'>
             <h1>Welcome to my Amazon StoreFront</h1>
             <h3>Hey! thanks for stopping by! Here you will find all my favorite things, most are from my videos. Have Fun shopping!</h3>
+            <h5>Note: these are affiliate liks that help the channel at no cost to you.</h5>
             <div className='mydearest__storefrontbody-container'>
                     <div className='mydearest__storefrontbody-container_card'>
                         <button onClick={handleMustHaveClick}>

@@ -188,7 +188,7 @@ const Sidebar = (props) => {
             sx={{
                 width: { md: `calc(100% - ${drawerWidth}px)` },
                 mr: { md: `${drawerWidth}px` },
-                backgroundColor: "transparent",
+                backgroundColor: "var(--color-bg-main-alpha)",
                 boxShadow: 0,
             }}
         >

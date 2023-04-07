@@ -11,19 +11,19 @@ body {
 
 .App {
     /* ff 3.6+ */
-    background:-moz-radial-gradient(circle at 50vw 25vh, var(--color-bg-circle) 0%, var(--color-bg-main) 30%);
+    background:-moz-radial-gradient(circle at 50vw 32vh, var(--color-bg-circle) 0%, var(--color-bg-main) 30%);
 
     /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 50vw 25vh, var(--color-bg-circle) 0%, var(--color-bg-main) 30%);
+    background:-webkit-radial-gradient(circle at 50vw 32vh, var(--color-bg-circle) 0%, var(--color-bg-main) 30%);
 
     /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 50vw 25vh, var(--color-bg-circle) 0%, var(--color-bg-main) 30%);
+    background:-o-radial-gradient(circle at 50vw 32vh, var(--color-bg-circle) 0%, var(--color-bg-main) 30%);
 
     /* ie 10+ */
-    background:-ms-radial-gradient(circle at 50vw 25vh, var(--color-bg-circle) 0%, var(--color-bg-main) 30%);
+    background:-ms-radial-gradient(circle at 50vw 32vh, var(--color-bg-circle) 0%, var(--color-bg-main) 30%);
 
     /* global 92%+ browsers support */
-    background:radial-gradient(circle at 50vw 25vh, var(--color-bg-circle) 0%, var(--color-bg-main) 30%);
+    background:radial-gradient(circle at 50vw 32vh, var(--color-bg-circle) 0%, var(--color-bg-main) 30%);
 
     /* height: 100vh; */
     /* height: 100%; */

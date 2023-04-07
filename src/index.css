@@ -21,6 +21,7 @@ code {
     --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
     
     --color-bg-main: rgb(37, 30, 48);
+    --color-bg-main-alpha: rgba(37, 30, 48, 0.8);
     /* --color-bg-main: rgb(123, 102, 159); */
     --color-bg-circle: rgba(124, 100, 163, 1);
     --color-bg-sidebar: rgba(32, 26, 42, 1);

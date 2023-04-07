@@ -15,6 +15,12 @@
     justify-content: center;
 }
 
+.mydearest__storefrontbody h5 {
+    /* margin-top: 1rem; */
+    display: flex;
+    justify-content: center;
+}
+
 .mydearest__storefrontbody-container {
     /* background-color: bisque; */
     color: black;
